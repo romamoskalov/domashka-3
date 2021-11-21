@@ -1,0 +1,88 @@
+num_ap = int(input('Enter apartment num='))
+
+if num_ap<0 or num_ap>144:
+    print ('Entrance - Error')
+elif num_ap>0 and num_ap<=36:
+    print('Entrance:', 1)
+    if 0 < num_ap <= 4:
+        print('floor:', 1)
+    elif 4 < num_ap <= 8:
+        print('floor:', 2)
+    elif 8 < num_ap <= 12:
+        print('floor:', 3)
+    elif 12 < num_ap <= 16:
+        print('floor:', 4)
+    elif 16 < num_ap <= 20:
+        print('floor:', 5)
+    elif 20 < num_ap <= 24:
+        print('floor:', 6)
+    elif 24 < num_ap <= 28:
+        print('floor:', 7)
+    elif 28 < num_ap <= 32:
+        print('floor:', 8)
+    elif 32 < num_ap <= 36:
+        print('floor:', 9)
+elif num_ap>36 and num_ap<=72:
+    print('Entrance:', 2)
+    if 36 < num_ap <= 40:
+        print('floor:', 1)
+    elif 40 < num_ap <= 44:
+        print('floor:', 2)
+    elif 44 < num_ap <= 48:
+        print('floor:', 3)
+    elif 48 < num_ap <= 52:
+        print('floor:', 4)
+    elif 52 < num_ap <= 56:
+        print('floor:', 5)
+    elif 56 < num_ap <= 60:
+        print('floor:', 6)
+    elif 60 < num_ap <= 64:
+        print('floor:', 7)
+    elif 64 < num_ap <= 68:
+        print('floor:', 8)
+    elif 68 < num_ap <= 72:
+        print('floor:', 9)
+elif num_ap>72 and num_ap<=108:
+    print('Entrance:', 3)
+    if 72 < num_ap <= 76:
+        print('floor:', 1)
+    elif 76 < num_ap <= 80:
+        print('floor:', 2)
+    elif 80 < num_ap <= 84:
+        print('floor:', 3)
+    elif 84 < num_ap <= 88:
+        print('floor:', 4)
+    elif 88 < num_ap <= 92:
+        print('floor:', 5)
+    elif 92 < num_ap <= 96:
+        print('floor:', 6)
+    elif 96 < num_ap <= 100:
+        print('floor:', 7)
+    elif 100 < num_ap <= 104:
+        print('floor:', 8)
+    elif 104 < num_ap <= 108:
+        print('floor:', 9)
+elif num_ap>108 and num_ap<=144:
+    print('Entrance:', 4)
+    if 108 < num_ap <= 112:
+        print('floor:', 1)
+    elif 112 < num_ap <= 116:
+        print('floor:', 2)
+    elif 116 < num_ap <= 120:
+        print('floor:', 3)
+    elif 120 < num_ap <= 124:
+        print('floor:', 4)
+    elif 124 < num_ap <= 128:
+        print('floor:', 5)
+    elif 128 < num_ap <= 132:
+        print('floor:', 6)
+    elif 132 < num_ap <= 136:
+        print('floor:', 7)
+    elif 136 < num_ap <= 140:
+        print('floor:', 8)
+    elif 140 < num_ap <=144:
+        print('floor:', 9)
+
+
+
+
