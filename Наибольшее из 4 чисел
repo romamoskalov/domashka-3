@@ -1,0 +1,18 @@
+num_1 = int(input('Enter first num='))
+num_2 = int(input('Enter second num='))
+num_3 = int(input('Enter third num='))
+num_4 = int(input('Enter fourth num='))
+
+if num_1 > num_2 and num_1 > num_3 and num_1 > num_4:
+    print("Max_num:", num_1)
+
+elif num_2 != num_1 and num_2 > num_3 and num_2 > num_4:
+    print("Max_num:", num_2)
+
+elif num_3 != num_2 and num_3 > num_4:
+    print("Max_num:", num_3)
+
+elif num_4 != num_3:
+    print("Max_num:", num_4)
+
+
