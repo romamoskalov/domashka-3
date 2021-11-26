@@ -1,0 +1,7 @@
+x = input('Enter x=')
+y = input('Enter y=')
+r = input('Enter radius=')
+
+if -r<x<r and -r<y<r:
+    print('Точка входит в окружность')
+else: print('Точка не в окружности')
